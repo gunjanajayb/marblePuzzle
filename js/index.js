@@ -1,14 +1,27 @@
-let firstClick = false;
+let secondClick = false;
+let firstClickCircleID = null;
 
 function handleClick(circle)
 {
-    if(!firstClick)
+    circleID = document.getElementById(circle.id);
+
+//    if((circleID.className == 'empDot' && !secondClick) ||
+//        (circleID.className == 'empDot' && secondClick && checkIfNeighbour(circleID)))
+    if(circleID.className == 'empDot' && !secondClick)  
     {
-        document.getElementById(circle.id).style.backgroundColor = "blue";
-        firstClick = true;
+        alert("wrong button");
+        return;
+    }
+    
+
+    if(!secondClick)
+    {
+        circleID.style.backgroundColor = "blue";
+        firstClickCircleID = circleID;
+        secondClick = true;
     }
     else{
-        document.getElementById(circle.id).style.backgroundColor = "green";
-        firstClick = false;
+        circleID.style.backgroundColor = "green";
+        secondClick = false;
     }
 }
