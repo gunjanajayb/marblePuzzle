@@ -1,7 +1,7 @@
 .empDot {
     height: 75px;
     width: 75px;
-    background-color: #bbb;
+    background-color:white;
     border-radius: 50%;
     border-style: solid;
     border-color: black;
@@ -11,9 +11,19 @@
 .fDot {
     height: 75px;
     width: 75px;
-    background-color: rgb(201, 76, 76);
+    background-color: red;
     border-radius: 50%;
     border-color: black;
     border-style: solid;
     display: inline-block;
   }
+
+  .sDot {
+    height: 75px;
+    width: 75px;
+    background-color: blue;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+  }  
