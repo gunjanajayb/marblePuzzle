@@ -77,11 +77,11 @@ function isValidDot(cID)
         case 'c5':
             if(cID == 'c12')
             {
-                middleCircleID = 'c12';
+                middleCircleID = 'c8';
             }
             else if(cID == 'c14')
             {
-                middleCircleID = 'c14';
+                middleCircleID = 'c9';
             }
             else{
             
