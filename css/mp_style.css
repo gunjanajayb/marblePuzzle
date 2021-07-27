@@ -1,0 +1,19 @@
+.empDot {
+    height: 75px;
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+  }
+  
+  .fDot {
+    height: 75px;
+    width: 75px;
+    background-color: rgb(201, 76, 76);
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+  }
