@@ -278,6 +278,13 @@ function handleClick(circle)
                 alert("invalid position");
             }
         }
+        else if(circleElm.id == firstClickCircleID)
+        {
+            circleElm.className = 'fDot';
+            secondClick = false;
+            firstClickCircleID = null;
+            middleCircleID = null;
+        }
         else{
             alert("select empty dot");
         }
