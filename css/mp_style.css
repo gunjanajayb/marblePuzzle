@@ -27,3 +27,24 @@
     border-style: solid;
     display: inline-block;
   }  
+
+  .leftpan{
+    height: 100vh;
+    width: 150px;
+    background-color: black;
+    display: block;
+  }
+
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+  .header {
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    background: rgb(26, 16, 165);
+    color: white;
+    font-size: 30px;
+  }

@@ -200,6 +200,14 @@ function isValidDot(cID)
             {
                 middleCircleID = 'c9';
             }
+            else if(cID == 'c11')
+            {
+                middleCircleID = 'c12';
+            }
+            else if(cID == 'c15')
+            {
+                middleCircleID = 'c14';
+            }            
             else{
             
             return false;}
